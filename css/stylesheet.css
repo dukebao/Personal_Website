@@ -1,10 +1,19 @@
+body
+{
+    background-color:#AFACAC;
+
+}
+
+div 
+{
+    color: #052599 ;
+}
 
 p{
-    color:#0000FF;
+    color:#333338;
 }
 
 h1{
-    background-color: #FFA500;
-    color:red;
+    color:#510905;
 }
 
