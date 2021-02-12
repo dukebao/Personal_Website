@@ -1,7 +1,6 @@
 body
 {
     background-color:#AFACAC;
-
 }
 
 div 
@@ -17,3 +16,12 @@ h1{
     color:#510905;
 }
 
+.mainh1spam{
+    font-family: Montserrat, sans-serif;
+
+}
+
+nav{
+    background-color: lightblue;
+    text-align:center;
+}
