@@ -25,3 +25,57 @@ nav{
     background-color: lightblue;
     text-align:center;
 }
+
+
+
+
+.container{
+    display: grid;
+    background-color:papayawhip;
+    /*border:black 1px solid;*/
+    padding:2px;
+    grid-template-columns: 1fr 1fr ;
+    gap:2px;
+    grid-auto-rows: minmax(5px, auto);
+}
+
+.item
+{
+    background-color: lightblue;
+    margin: 10px;
+
+  
+}
+
+.one{
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1;
+    
+}
+
+.two{
+    grid-row: 4;
+    grid-column: 1/3;
+    text-align: center;
+    
+}
+.three{
+    grid-column: 1;
+    grid-row: 2/3;
+    background-color: #edddd0;
+}
+.four{
+    grid-column: 2/4;
+    text-align: center;
+    background-color: #edddd0;
+    grid-row: 2/4;
+}
+
+
+
+.five{
+    grid-column: 1/2;
+    grid-row: 3;
+    background-color: #edddd0;
+}
